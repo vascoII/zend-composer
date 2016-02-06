@@ -1,9 +1,9 @@
-# zend-composer-jwt
-Zend 1.x using composer and Json Web Token
+# zend-composer
+Zend 1.x using composer
 
 # Using composer for zendframework1 in vendor folder : 
 - Using the zf tool:
-      zf create project zend-composer-jwt
+      zf create project zend-composer
 - In public/index.php:
       comment get_include_path() 
 
@@ -13,7 +13,7 @@ Zend 1.x using composer and Json Web Token
         // get_include_path(),
     )));
 
-- Using composer in zend-composer-jwt DIR
+- Using composer in zend-composer DIR
       composer init
       bla bla bla until: Would you like to define your dependencies (require) interactively [yes]?yes
       Search for a package: zendframework1
@@ -25,7 +25,3 @@ Zend 1.x using composer and Json Web Token
 
 - In public/index.php and tests/bootstrap.php:
       replace // get_include_path(), by realpath(APPLICATION_PATH . '/../vendor/zendframework/zendframework1/library')
-
-# Using Json Web Token
-- Todo
-      
